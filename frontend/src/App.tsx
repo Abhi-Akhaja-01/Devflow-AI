@@ -11,7 +11,7 @@
 
 
 const App = () => {
-  let name = "Abhi";
+  let name222 = "Abhi";
 
   return <h1>Hello</h1>;
 };
