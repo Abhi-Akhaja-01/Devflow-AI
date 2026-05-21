@@ -11,6 +11,7 @@ app.use(express.json());
 
 app.get("/", (req, res) => {
   res.send("Backend Running...");
+  console.log("Feature branch")
 });
 
 const PORT = process.env.PORT || 5000;
