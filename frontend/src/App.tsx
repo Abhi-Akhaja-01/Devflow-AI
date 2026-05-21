@@ -1,11 +1,19 @@
-import React from 'react'
+// const App = () => {
+//   const name: string = "Abhi";
+//   return (
+//     <div className="h-screen flex items-center justify-center">
+//       <h1 className="text-5xl font-bold text-blue-600">{name}</h1>
+//     </div>
+//   );
+// };
+
+// export default App;
+
 
 const App = () => {
-  return (
-    <div>
-      <h1>Helllo devflow-ai</h1>
-    </div>
-  )
-}
+  let name = "Abhi";
 
-export default App
+  return <h1>Hello</h1>;
+};
+
+export default App;
