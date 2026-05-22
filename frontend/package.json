@@ -11,15 +11,30 @@
     "prepare": "cd .. && husky frontend/.husky"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
     "@tailwindcss/vite": "^4.3.0",
+    "@tanstack/react-query": "^5.100.11",
+    "axios": "^1.16.1",
+    "date-fns": "^4.2.1",
+    "framer-motion": "^12.39.0",
+    "lucide-react": "^1.16.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "tailwindcss": "^4.3.0"
+    "react-hook-form": "^7.76.0",
+    "react-hot-toast": "^2.6.0",
+    "react-router-dom": "^7.15.1",
+    "recharts": "^3.8.1",
+    "socket.io-client": "^4.8.3",
+    "tailwindcss": "^4.3.0",
+    "zod": "^4.4.3",
+    "zustand": "^5.0.13"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@types/node": "^25.9.1",
     "@types/react": "^18.3.17",
     "@types/react-dom": "^18.3.5",
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-react": "^4.3.4",
     "eslint": "^9.17.0",
     "eslint-plugin-react-hooks": "^5.0.0",
